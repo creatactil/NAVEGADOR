@@ -13,7 +13,7 @@ function abrir(){
     },
     title: {
         color: '#ffffff',
-        showPageTitle: 'TETEAPP'
+        showPageTitle: false
     },
     backButton: {
         image: 'back',
