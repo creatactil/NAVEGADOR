@@ -3,16 +3,16 @@ function abrir(){
 			
 			alert("Hola");
 			
-			cordova.ThemeableBrowser.open('http://apache.org', '_blank', {
+			cordova.ThemeableBrowser.open('http://creatactil.com', '_blank', {
     statusbar: {
-        color: '#ffffffff'
+        color: '#1C20A6'
     },
     toolbar: {
-        height: 44,
-        color: '#f0f0f0ff'
+        height: 54,
+        color: '#1C20A6'
     },
     title: {
-        color: '#003264ff',
+        color: '#ffffff',
         showPageTitle: true
     },
     backButton: {
