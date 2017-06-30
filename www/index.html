@@ -28,101 +28,45 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
+        
+       
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <title>Hello World</title>
+    
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+<link rel="stylesheet" href="jqm145/jquery.mobile.structure-1.4.5.min.css"/>
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="themes/tema.css" />
+
+
+<script src="jqm145/jquery-1.11.1.min.js"></script>
+<script src="/js/jquery-ui.js"></script>
+<script src="/js/jquery-ui.min.js"></script>
+<script src="jqm145/jquery.mobile-1.4.5.min.js"></script>
+    
+    
+    
+    
+    
     </head>
     <body>
+    <a data-role="button" data-icon="check" data-transition="slide" onClick="abrir();" data-inline="true" style="width:65px;margin-bottom: 2em;">Abrir</a>
+    
         <div class="app">
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
                 <br>
-                <input type="button" onClick="abrir();" value="ABRIR">
+                
             </div>
         </div>
+        
+        
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script>
-		function abrir(){
-			
-			alert("Hola");
-			
-			cordova.ThemeableBrowser.open('http://apache.org', '_blank', {
-    statusbar: {
-        color: '#ffffffff'
-    },
-    toolbar: {
-        height: 44,
-        color: '#f0f0f0ff'
-    },
-    title: {
-        color: '#003264ff',
-        showPageTitle: true
-    },
-    backButton: {
-        image: 'back',
-        imagePressed: 'back_pressed',
-        align: 'left',
-        event: 'backPressed'
-    },
-    forwardButton: {
-        image: 'forward',
-        imagePressed: 'forward_pressed',
-        align: 'left',
-        event: 'forwardPressed'
-    },
-    closeButton: {
-        image: 'close',
-        imagePressed: 'close_pressed',
-        align: 'left',
-        event: 'closePressed'
-    },
-    customButtons: [
-        {
-            image: 'share',
-            imagePressed: 'share_pressed',
-            align: 'right',
-            event: 'sharePressed'
-        }
-    ],
-    menu: {
-        image: 'menu',
-        imagePressed: 'menu_pressed',
-        title: 'Test',
-        cancel: 'Cancel',
-        align: 'right',
-        items: [
-            {
-                event: 'helloPressed',
-                label: 'Hello World!'
-            },
-            {
-                event: 'testPressed',
-                label: 'Test!'
-            }
-        ]
-    },
-    backButtonCanClose: true
-}).addEventListener('backPressed', function(e) {
-    alert('back pressed');
-}).addEventListener('helloPressed', function(e) {
-    alert('hello pressed');
-}).addEventListener('sharePressed', function(e) {
-    alert(e.url);
-}).addEventListener(cordova.ThemeableBrowser.EVT_ERR, function(e) {
-    console.error(e.message);
-}).addEventListener(cordova.ThemeableBrowser.EVT_WRN, function(e) {
-    console.log(e.message);
-});
-			
-			
-			}
-		</script>
+        <script type="text/javascript" src="js/abrir.js"></script>
         
         
         
