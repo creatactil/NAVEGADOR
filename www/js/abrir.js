@@ -13,7 +13,7 @@ function abrir(){
     },
     title: {
         color: '#ffffff',
-        showPageTitle: false
+        showPageTitle: true
     },
     backButton: {
         image: '../recursos/back.png',
