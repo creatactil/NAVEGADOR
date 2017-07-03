@@ -10,7 +10,7 @@ function abrir(){
     toolbar: {
 		wwwImage: 'recursos/titulo.png',
         height: 54,
-        color: '#0038a2'
+        color: '#0038a2',
 		align: 'center'
     },
     title: {
@@ -24,28 +24,28 @@ function abrir(){
         event: 'backPressed'
     },
     forwardButton: {
-        wwwImage: 'recursos/forward.png',
-        wwwImagePressed: 'recursos/forward_pressed.png',
+        wwwImage: '-recursos/forward.png',
+        wwwImagePressed: '-recursos/forward_pressed.png',
         align: 'left',
         event: 'forwardPressed'
     },
     closeButton: {
-        wwwImage: 'recursos/close.png',
-        wwwImagePressed: 'recursos/close_pressed.png',
+        wwwImage: '-recursos/close.png',
+        wwwImagePressed: 'r-ecursos/close_pressed.png',
         align: 'left',
         event: 'closePressed'
     },
     customButtons: [
         {
-            wwwImage: 'recursos/share.png',
-            wwwImagePressed: 'recursos/share_pressed.png',
+            wwwImage: '-recursos/share.png',
+            wwwImagePressed: '-recursos/share_pressed.png',
             align: 'right',
             event: 'sharePressed'
         }
     ],
     menu: {
-        wwwImage: 'recursos/menu.png',
-        wwwImagePressed: 'recursos/menu_pressed.png',
+        wwwImage: '-recursos/menu.png',
+        wwwImagePressed: '-recursos/menu_pressed.png',
         title: 'Test',
         cancel: 'Cancel',
         align: 'right',
