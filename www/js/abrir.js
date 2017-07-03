@@ -15,19 +15,19 @@ function abrir(){
         showPageTitle: false
     },
     backButton: {
-        wwwimage: 'img/back.png',
-        imagePressed: 'img/back_pressed.png',
+        wwwImage: 'img/back.png',
+        wwwImagePressed: 'img/back_pressed.png',
         align: 'left',
         event: 'backPressed'
     },
     forwardButton: {
-        image: 'recursos/forward.png',
-        imagePressed: 'recursos\forward_pressed.png',
+        wwwimage: 'recursos/forward.png',
+        wwwimagePressed: 'recursos/forward_pressed.png',
         align: 'left',
         event: 'forwardPressed'
     },
     closeButton: {
-        image: 'recursos\close.png',
+        image: 'recursos/close.png',
         imagePressed: 'recursos/close_pressed.png',
         align: 'left',
         event: 'closePressed'
