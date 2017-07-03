@@ -5,7 +5,7 @@ function abrir(){
 			
 			cordova.ThemeableBrowser.open('http://creatactil.com', '_blank', {
     statusbar: {
-        color: '#1C20A6'
+        color: '#ffffff'
     },
     toolbar: {
         height: 54,
