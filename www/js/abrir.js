@@ -29,12 +29,12 @@ cordova.ThemeableBrowser.open('http://www.micolegioapp.com', '_blank', {
         align: 'left',
         event: 'forwardPressed'
     },
-    /*closeButton: {
+    closeButton: {
         wwwImage: 'recursos/close.png',
         wwwImagePressed: 'recursos/close_pressed.png',
-        align: 'left',
+        align: 'right',
         event: 'closePressed'
-    },*/
+    },
     /*customButtons: [
         {
             wwwImage: 'recursos/share.png',
