@@ -18,13 +18,13 @@ cordova.ThemeableBrowser.open('http://www.micolegioapp.com', '_blank', {
         showPageTitle: false
     },
     backButton: {
-        wwwImage: 'recursos/back.png',
+        wwwImage: 'recursos/back.jpg',
         wwwImagePressed: 'recursos/back_pressed.png',
         align: 'left',
         event: 'backPressed'
     },
     forwardButton: {
-        wwwImage: 'recursos/forward.png',
+        wwwImage: 'recursos/forward.jpg',
         wwwImagePressed: 'recursos/forward_pressed.png',
         align: 'left',
         event: 'forwardPressed'
