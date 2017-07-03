@@ -9,7 +9,7 @@ cordova.ThemeableBrowser.open('http://www.micolegioapp.com', '_blank', {
     },
     toolbar: {
 		wwwImage: 'recursos/titulo.png',
-        height: 60,
+        height: 50,
         color: '#0038a2',
 		align: 'center'
     },
