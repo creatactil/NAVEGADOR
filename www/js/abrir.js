@@ -16,34 +16,34 @@ function abrir(){
         showPageTitle: false
     },
     backButton: {
-        image: 'back',
-        imagePressed: 'back_pressed',
+        image: 'recursos/back.png',
+        imagePressed: 'recursos/back_pressed.png',
         align: 'left',
         event: 'backPressed'
     },
     forwardButton: {
-        image: 'forward',
-        imagePressed: 'forward_pressed',
+        image: 'recusrsos/forward.png',
+        imagePressed: 'recursos/forward_pressed.png',
         align: 'left',
         event: 'forwardPressed'
     },
     closeButton: {
-        image: 'close',
-        imagePressed: 'close_pressed',
+        image: 'recursos/close.png',
+        imagePressed: 'recursos/close_pressed.png',
         align: 'left',
         event: 'closePressed'
     },
     customButtons: [
         {
-            image: 'share',
-            imagePressed: 'share_pressed',
+            image: 'recursos/share.png',
+            imagePressed: 'recursos/share_pressed.png',
             align: 'right',
             event: 'sharePressed'
         }
     ],
     menu: {
-        image: 'menu',
-        imagePressed: 'menu_pressed',
+        image: 'recursos/menu.png',
+        imagePressed: 'recursos/menu_pressed.png',
         title: 'Test',
         cancel: 'Cancel',
         align: 'right',
