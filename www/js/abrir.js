@@ -13,10 +13,10 @@ function abrir(){
     },
     title: {
         color: '#ffffff',
-        showPageTitle: true
+        showPageTitle: false
     },
     backButton: {
-        image: 'recursos/back.png',
+        image: 'www/recursos/back.png',
         imagePressed: 'recursos/back_pressed.png',
         align: 'left',
         event: 'backPressed'
