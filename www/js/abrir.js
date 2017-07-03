@@ -15,13 +15,13 @@ function abrir(){
         showPageTitle: false
     },
     backButton: {
-        image: '..'\'recursos'\'back.png',
-        imagePressed: 'recursos'\'back_pressed.png',
+        wwwimage: 'img/back.png',
+        imagePressed: 'img/back_pressed.png',
         align: 'left',
         event: 'backPressed'
     },
     forwardButton: {
-        image: '..\recusrsos\forward.png',
+        image: 'recursos/forward.png',
         imagePressed: 'recursos\forward_pressed.png',
         align: 'left',
         event: 'forwardPressed'
