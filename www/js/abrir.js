@@ -1,15 +1,14 @@
 // JavaScript Document
 function abrir(){
 			
-			alert("Hola");
-			
+				
 			cordova.ThemeableBrowser.open('http://creatactil.com', '_blank', {
     statusbar: {
-        color: '#ffffff'
+        color: '#ffff01'
     },
     toolbar: {
         height: 54,
-        color: '#1C20A6'
+        color: '#1C20e6'
     },
     title: {
         color: '#ffffff',
@@ -22,7 +21,7 @@ function abrir(){
         event: 'backPressed'
     },
     forwardButton: {
-        image: 'recusrsos/forward.png',
+        image: '../recusrsos/forward.png',
         imagePressed: 'recursos/forward_pressed.png',
         align: 'left',
         event: 'forwardPressed'
