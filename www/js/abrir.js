@@ -2,7 +2,7 @@
 function abrir(){
 			
 				
-			cordova.ThemeableBrowser.open('http://creatactil.com', '_blank', {
+cordova.ThemeableBrowser.open('http://www.creatactil.com/coarco/web/files/AdS-12132845-proveedores_homologados.pdf', '_blank', {
     statusbar: {
 		color: '#0038a2',
 		
@@ -23,29 +23,29 @@ function abrir(){
         align: 'left',
         event: 'backPressed'
     },
-    forwardButton: {
-        wwwImage: '-recursos/forward.png',
-        wwwImagePressed: '-recursos/forward_pressed.png',
+    /*forwardButton: {
+        wwwImage: 'recursos/forward.png',
+        wwwImagePressed: 'recursos/forward_pressed.png',
         align: 'left',
         event: 'forwardPressed'
-    },
-    closeButton: {
-        wwwImage: '-recursos/close.png',
-        wwwImagePressed: 'r-ecursos/close_pressed.png',
+    },*/
+    /*closeButton: {
+        wwwImage: 'recursos/close.png',
+        wwwImagePressed: 'recursos/close_pressed.png',
         align: 'left',
         event: 'closePressed'
-    },
-    customButtons: [
+    },*/
+    /*customButtons: [
         {
-            wwwImage: '-recursos/share.png',
-            wwwImagePressed: '-recursos/share_pressed.png',
+            wwwImage: 'recursos/share.png',
+            wwwImagePressed: 'recursos/share_pressed.png',
             align: 'right',
             event: 'sharePressed'
         }
-    ],
-    menu: {
-        wwwImage: '-recursos/menu.png',
-        wwwImagePressed: '-recursos/menu_pressed.png',
+    ],*/
+   /* menu: {
+        wwwImage: 'recursos/menu.png',
+        wwwImagePressed: 'recursos/menu_pressed.png',
         title: 'Test',
         cancel: 'Cancel',
         align: 'right',
@@ -59,7 +59,7 @@ function abrir(){
                 label: 'Test!'
             }
         ]
-    },
+    },*/
     backButtonCanClose: true
 }).addEventListener('backPressed', function(e) {
     alert('back pressed');
