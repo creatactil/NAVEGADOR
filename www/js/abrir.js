@@ -4,14 +4,14 @@ function abrir(){
 				
 			cordova.ThemeableBrowser.open('http://creatactil.com', '_blank', {
     statusbar: {
-		wwwImage: 'recursos/titulo.png',
-        color: '#0038a2',
-		align: 'center'
+		color: '#0038a2',
+		
     },
     toolbar: {
+		wwwImage: 'recursos/titulo.png',
         height: 54,
         color: '#0038a2'
-		
+		align: 'center'
     },
     title: {
         color: '#ffffff',
