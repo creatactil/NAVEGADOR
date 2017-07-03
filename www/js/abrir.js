@@ -16,7 +16,7 @@ function abrir(){
         showPageTitle: true
     },
     backButton: {
-        image: '../recursos/back.png',
+        image: 'recursos/back.png',
         imagePressed: 'recursos/back_pressed.png',
         align: 'left',
         event: 'backPressed'
