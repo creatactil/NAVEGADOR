@@ -6,7 +6,7 @@ function abrir(){
     statusbar: {
 		wwwImage: 'recursos/titulo.png',
         color: '#0038a2',
-		align: 'left'
+		align: 'center'
     },
     toolbar: {
         height: 54,
