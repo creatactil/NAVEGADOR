@@ -16,7 +16,7 @@ function abrir(){
         showPageTitle: false
     },
     backButton: {
-        image: 'recursos/back.png',
+        image: '../recursos/back.png',
         imagePressed: 'recursos/back_pressed.png',
         align: 'left',
         event: 'backPressed'
@@ -50,7 +50,7 @@ function abrir(){
         items: [
             {
                 event: 'helloPressed',
-                label: 'Hello World!'
+                label: 'Hello '
             },
             {
                 event: 'testPressed',
