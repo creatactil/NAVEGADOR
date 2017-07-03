@@ -4,20 +4,21 @@ function abrir(){
 				
 			cordova.ThemeableBrowser.open('http://creatactil.com', '_blank', {
     statusbar: {
-        color: '#0038a2'
+		wwwImage: 'recursos/titulo.png',
+        color: '#0038a2',
+		align: 'left'
     },
     toolbar: {
-        wwwImage: 'recursos/titulo.png',
-		height: 54,
-        color: '#0038a2',
-		align: 'center'
+        height: 54,
+        color: '#0038a2'
+		
     },
     title: {
         color: '#ffffff',
         showPageTitle: false
     },
     backButton: {
-        wwwImage: 'recursos/back.png',
+        wwwImage: 'recursos/icono-atras.svg',
         wwwImagePressed: 'recursos/back_pressed.png',
         align: 'left',
         event: 'backPressed'
