@@ -31,8 +31,8 @@ cordova.ThemeableBrowser.open('http://www.micolegioapp.com', '_blank', {
     },
     closeButton: {
         wwwImage: 'recursos/close.png',
-        wwwImagePressed: 'recursos/close_pressed.png',
-        align: 'right',
+        wwwImagePressed: 'recursos/close.png',
+        align: 'left',
         event: 'closePressed'
     },
     /*customButtons: [
@@ -62,9 +62,9 @@ cordova.ThemeableBrowser.open('http://www.micolegioapp.com', '_blank', {
     },*/
     backButtonCanClose: true
 }).addEventListener('backPressed', function(e) {
-    alert('back pressed');
+    //alert('back pressed');
 }).addEventListener('helloPressed', function(e) {
-    alert('hello pressed');
+    //alert('hello pressed');
 }).addEventListener('sharePressed', function(e) {
     alert(e.url);
 }).addEventListener(cordova.ThemeableBrowser.EVT_ERR, function(e) {
