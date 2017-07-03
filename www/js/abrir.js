@@ -18,7 +18,7 @@ function abrir(){
         showPageTitle: false
     },
     backButton: {
-        wwwImage: 'recursos/icono-atras.svg',
+        wwwImage: 'recursos/back.png',
         wwwImagePressed: 'recursos/back_pressed.png',
         align: 'left',
         event: 'backPressed'
