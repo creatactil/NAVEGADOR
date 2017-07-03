@@ -2,7 +2,7 @@
 function abrir(){
 			
 				
-cordova.ThemeableBrowser.open('http://www.coarco.es', '_blank', {
+cordova.ThemeableBrowser.open('http://www.micolegioapp.com', '_blank', {
     statusbar: {
 		color: '#0038a2',
 		
