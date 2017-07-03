@@ -21,14 +21,14 @@ function abrir(){
         event: 'backPressed'
     },
     forwardButton: {
-        wwwimage: 'recursos/forward.png',
-        wwwimagePressed: 'recursos/forward_pressed.png',
+        wwwImage: 'recursos/forward.png',
+        wwwImagePressed: 'recursos/forward_pressed.png',
         align: 'left',
         event: 'forwardPressed'
     },
     closeButton: {
-        image: 'recursos/close.png',
-        imagePressed: 'recursos/close_pressed.png',
+        wwwImage: 'recursos/close.png',
+        wwwImagePressed: 'recursos/close_pressed.png',
         align: 'left',
         event: 'closePressed'
     },
