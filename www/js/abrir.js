@@ -2,7 +2,7 @@
 function abrir(){
 			
 				
-cordova.ThemeableBrowser.open('http://www.creatactil.com/coarco/web/files/AdS-12132845-proveedores_homologados.pdf', '_blank', {
+cordova.ThemeableBrowser.open('http://www.coarco.es', '_blank', {
     statusbar: {
 		color: '#0038a2',
 		
@@ -23,12 +23,12 @@ cordova.ThemeableBrowser.open('http://www.creatactil.com/coarco/web/files/AdS-12
         align: 'left',
         event: 'backPressed'
     },
-    /*forwardButton: {
+    forwardButton: {
         wwwImage: 'recursos/forward.png',
         wwwImagePressed: 'recursos/forward_pressed.png',
         align: 'left',
         event: 'forwardPressed'
-    },*/
+    },
     /*closeButton: {
         wwwImage: 'recursos/close.png',
         wwwImagePressed: 'recursos/close_pressed.png',
