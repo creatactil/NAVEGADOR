@@ -4,19 +4,21 @@ function abrir(){
 				
 			cordova.ThemeableBrowser.open('http://creatactil.com', '_blank', {
     statusbar: {
-        color: '#ffff01'
+        color: '#0038a2'
     },
     toolbar: {
-        height: 54,
-        color: '#1C20e6'
+        wwwImage: 'recursos/titulo.png',
+		height: 54,
+        color: '#0038a2',
+		align: 'center'
     },
     title: {
         color: '#ffffff',
         showPageTitle: false
     },
     backButton: {
-        wwwImage: 'img/back.png',
-        wwwImagePressed: 'img/back_pressed.png',
+        wwwImage: 'recursos/back.png',
+        wwwImagePressed: 'recursos/back_pressed.png',
         align: 'left',
         event: 'backPressed'
     },
@@ -34,15 +36,15 @@ function abrir(){
     },
     customButtons: [
         {
-            image: 'recursos/share.png',
-            imagePressed: 'recursos/share_pressed.png',
+            wwwImage: 'recursos/share.png',
+            wwwImagePressed: 'recursos/share_pressed.png',
             align: 'right',
             event: 'sharePressed'
         }
     ],
     menu: {
-        image: 'recursos/menu.png',
-        imagePressed: 'recursos/menu_pressed.png',
+        wwwImage: 'recursos/menu.png',
+        wwwImagePressed: 'recursos/menu_pressed.png',
         title: 'Test',
         cancel: 'Cancel',
         align: 'right',
