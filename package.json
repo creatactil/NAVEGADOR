@@ -12,13 +12,17 @@
     "dependencies": {
         "cordova-android": "^6.2.3",
         "cordova-ios": "^4.4.0",
+        "cordova-plugin-compat": "^1.0.0",
+        "cordova-plugin-qrscanner": "^2.5.0",
+        "cordova-plugin-swift-support": "^3.1.1",
         "cordova-plugin-themeablebrowser": "^0.2.17",
         "cordova-plugin-whitelist": "^1.3.2"
     },
     "cordova": {
         "plugins": {
             "cordova-plugin-whitelist": {},
-            "cordova-plugin-themeablebrowser": {}
+            "cordova-plugin-themeablebrowser": {},
+            "cordova-plugin-qrscanner": {}
         },
         "platforms": [
             "android",

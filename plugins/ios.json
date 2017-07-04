@@ -12,7 +12,14 @@
         },
         "cordova-plugin-themeablebrowser": {
             "PACKAGE_NAME": "com.example.navega"
+        },
+        "cordova-plugin-qrscanner": {
+            "PACKAGE_NAME": "com.example.navega"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-swift-support": {
+            "PACKAGE_NAME": "com.example.navega"
+        }
+    }
 }
