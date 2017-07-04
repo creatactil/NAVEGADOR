@@ -51,24 +51,58 @@
     
     </head>
     <body>
-    
-    
-        <div class="app">
+        <div data-role="page" id="page0">
+          <div data-role="header">
+            <h1>Encabezado</h1>
+          </div>
+          <div data-role="content">Contenido
+          
+          <div class="app">
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
                 <br>
+           </div>     
                 <a data-role="button" data-icon="check" data-transition="slide" onClick="abrir();" data-inline="true" style="width:65px;margin-bottom: 2em;">Abrir</a>
                 <a data-role="button" data-icon="check" data-transition="slide" onClick="escanear();" data-inline="true" style="width:65px;margin-bottom: 2em;">Escanear</a>
             </div>
+        
+          
+          </div>
+          <div data-role="footer" data-position="fixed">
+            <h4>Pie</h4>
+          </div>
+        </div>
+    
+    
+        
+        
+        
+    <div data-role="page" id="page01">
+          <div data-role="header">
+            <h1>Scan</h1>
+          </div>
+          <div data-role="content" style="background-color:transparent">
+          
+          
+          
+          </div>
+          
+          
+          
+          <div data-role="footer" data-position="fixed">
+            <h4>Pie</h4>
+          </div>
         </div>
         
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/abrir.js"></script>
+    <script type="text/javascript" src="js/escanear.js"></script>
         
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript" src="js/abrir.js"></script>
-        <script type="text/javascript" src="js/escanear.js"></script>
+        
+        
         
         
         

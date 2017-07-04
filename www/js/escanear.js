@@ -1,4 +1,6 @@
 function escanear(){
+		
+	$.mobile.changePage("#page01");
 			
 	var callback = function(err, contents){
 	 
@@ -9,5 +11,9 @@ function escanear(){
 	};
 	 
 	QRScanner.scan(callback);	
+	
+	QRScanner.show(function(status){
+  		console.log(status);
+	});
 	
 }
