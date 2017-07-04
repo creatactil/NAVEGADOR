@@ -15,6 +15,10 @@
         },
         "cordova-plugin-qrscanner": {
             "PACKAGE_NAME": "com.example.navega"
+        },
+        "phonegap-plugin-barcodescanner": {
+            "CAMERA_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.example.navega"
         }
     },
     "dependent_plugins": {
