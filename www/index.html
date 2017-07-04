@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-    </head>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>BarCode Scanner - PhoneGapPro.com</title>
+ <script type="text/javascript" src="cordova.js"></script>
+ <script type="text/javascript">
+ function scan(){
+ console.log("clicked");
+ cordova.plugins.barcodeScanner.scan(function(result){
+ //success callback
+ alert(JSON.stringify(result));
 
-    <body>
+ },function(error){
+ //error callback
+ alert(JSON.stringify(error));
 
-    <p>
-    <button id="startScan">Start Scan</button>
-    </p>
-
-    <div id="results"></div>
-
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/app.js"></script>
-    </body>
+ });
+ }
+ </script>
+</head>
+<body>
+ <h3>BAR CODE SCANNER</h3>
+ <button onclick="scan()">SCAN</button>
+</body>
 </html>
